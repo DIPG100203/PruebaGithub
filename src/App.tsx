@@ -1,7 +1,11 @@
+import CtaFinal from "./components/Ctafinal"
 import Features from "./components/Features"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Logo from "./components/Logo"
 import NavBar from "./components/NavBar"
+import Pricing from "./components/Pricing"
+import Testimonials from "./components/Testimonials"
 
 
 function App() {
@@ -13,6 +17,10 @@ function App() {
         <Hero />
         <Logo />
         <Features />
+        <Pricing />
+        <Testimonials />
+        <CtaFinal />
+        <Footer />
       </main>
     </div>  
   )
